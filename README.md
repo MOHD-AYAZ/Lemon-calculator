@@ -53,10 +53,8 @@ Lemon Calculator offers a range of features to simplify your daily calculations:
 
 For a quick glimpse of Lemon Calculator in action, check out our live demo [here](https://mohd-ayaz.github.io/Lemon-calculator/).
 
+----------------------------------------------------------
 
-![Lemon Calculator Demo]()
-
----
 
 ## Getting Started
 
