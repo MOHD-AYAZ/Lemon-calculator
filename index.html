@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my calculator</title>
+    <link rel="shortcut icon" href="123.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background">
+        <div class="shape">
+            
+        </div>
+        <div class="shape"> <svg
+            viewBox="0 0 500 500"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="100%"
+            id="blobSvg"
+          >
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color: #ff512f"></stop>
+              <stop offset="100%" style="stop-color: #f09819"></stop>
+              </linearGradient>
+            </defs>
+            <path fill="url(#gradient)">
+              <animate attributeName="d" dur="10000ms" repeatCount="indefinite"
+              values="M378.5,337.5Q351,425,269,391.5Q187,358,95.5,304Q4,250,78,165.5Q152,81,252.5,76Q353,71,379.5,160.5Q406,250,378.5,337.5Z;
+              
+              M399.5,303.5Q312,357,242.5,370Q173,383,103.5,316.5Q34,250,116,205Q198,160,263.5,137Q329,114,408,182Q487,250,399.5,303.5Z;
+              
+              M423,355Q371,460,269,427.5Q167,395,136.5,322.5Q106,250,134,174Q162,98,237.5,119Q313,140,394,195Q475,250,423,355Z;
+              
+              M389,351.5Q367,453,270,418.5Q173,384,149.5,317Q126,250,160.5,202Q195,154,284.5,94.5Q374,35,392.5,142.5Q411,250,389,351.5Z;
+              
+  ">
+  
+              </animate>
+            </path>
+          </svg></div>
+          <div class="text"><p>Lemon Calculator</p></div>
+    </div>
+    <div class="container">
+        <div class="calculator">
+            <div id="result">
+                <div id="history">
+                    <p id="history_value" class="historytext"></p>
+                </div>
+                <div id="output">
+                    <p id="output_value"></p>
+                </div>
+            </div>
+            <div id="keyboard">
+                <button class="operator" id="clear">C</button>
+                <button class="operator" id="backspace">CE</button>
+                <button class="operator" id="%">%</button>
+                <button class="operator" id="/">&#247;</button>
+
+                <button class="number" id="7">7</button>
+                <button class="number" id="8">8</button>
+                <button class="number" id="9">9</button>
+
+                <button class="operator" id="*">&times;</button>
+
+                <button class="number" id="4">4</button>
+                <button class="number" id="5">5</button>
+                <button class="number" id="6">6</button>
+                
+                <button class="operator" id="-">-</button>
+
+                <button class="number" id="1">1</button>
+                <button class="number" id="2">2</button>
+                <button class="number" id="3">3</button>
+
+                <button class="operator" id="+">+</button>
+
+                <button class="last number" id="00">00</button>
+                <button class="number" id="0">0</button>
+                
+                <button class="last operator" id="=">=</button>
+
+
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
